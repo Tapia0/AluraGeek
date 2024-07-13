@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (max-width:2000px){
+    .nav{
+        display: flex;
+        gap: 370px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: 200px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: absolute;
+        right: 770px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: 20px;
+        width: 540px;
+        position: absolute
+    
+    }
+
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .shop{
+        margin-top: 2rem !important;
+    }
+}
+
+@media (max-width:1818px){
+    .nav{
+        display: flex;
+        gap: 370px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: 200px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: absolute;
+        right: 730px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: -50px;
+        width: 540px;
+        position: absolute
+    
+    }
+
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .shop{
+        margin-top: 2rem !important;
+    }
+}
+
+@media (max-width:1366px){
+    .nav{
+        display: flex;
+        gap: 370px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: 200px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: absolute;
+        right: 500px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: -300px;
+        width: 540px;
+        position: absolute
+    
+    }
+
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .shop{
+        margin-top: 2rem !important;
+    }
+}
+
+@media (max-width:1180px){
+    .nav{
+        display: flex;
+        gap: 370px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: 250px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: absolute;
+        right: 450px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: -400px;
+        width: 540px;
+        position: absolute
+    
+    }
+
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .shop{
+        margin-top: 2rem !important;
+    }
+}
+
+@media (max-width:1024px){
+    .nav{
+        display: flex;
+        gap: 370px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: 150px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: absolute;
+        right: 270px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: -400px;
+        width: 540px;
+        position: absolute
+    
+    }
+
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .container{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .shop{
+        margin-top: 2rem !important;
+    }
+}
+
+@media (max-width:412px){
+    .nav{
+        display: flex;
+        gap: 200px;
+        padding: 14px 0;
+    }
+
+    
+    .nav{
+        display: grid;
+        gap: 1px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: -100px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: relative;
+        right: -100px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: -100px;
+        width: 540px;
+        position: relative;
+    
+    }
+
+    .tarjeta{
+        position: flex;
+        right: -100%;
+        width: 520px;
+        min-height: 500vh;
+    }
+
+    .caja-tarjeta{
+        display: grid;
+        grid-template-columns: 37% 15% 10%;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .tarjeta-titulo{
+        text-align: left;
+
+    }
+    .Total{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .total-titulo{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    .btn-compra{
+        display: flex;
+        justify-content: left;
+        margin: 1.5rem auto 0 6.5rem;
+        width: 25%;
+        text-align: left;
+
+    }
+    
+    #cerrar-tarjeta{
+        right: 29.8rem;
+
+    }
+    
+    .detalle-caja{
+        display: grid;
+        margin: 0 0 0 -3.5rem;
+        row-gap: 0.5rem;
+    }
+
+    .tarj-producto-titulo{
+        font-size: 50%;
+        font-weight: 500;
+        text-transform: uppercase ;
+    }
+    
+
+    .logo {
+        font-size: 1rem;
+
+    }
+    .tarj {
+        width: 320px;
+
+    }
+}
+
+@media (max-width:390px){
+    .nav{
+        display: grid;
+        gap: 1px;
+        padding: 14px 0;
+    }
+
+    .logo{
+        position: relative;
+        right: -100px;
+        width: 540px;
+    }
+    
+    
+    #sesion-icono {
+        position: relative;
+        right: -100px;
+        width: 540px;
+    }
+    
+    #tarjeta-icono {
+        right: -100px;
+        width: 540px;
+        position: relative;
+    
+    }
+
+    .tarjeta{
+        position: flex;
+        right: -100%;
+        width: 520px;
+        min-height: 500vh;
+    }
+
+    .caja-tarjeta{
+        display: grid;
+        grid-template-columns: 37% 15% 10%;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .tarjeta-titulo{
+        text-align: left;
+
+    }
+    .Total{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .total-titulo{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    .btn-compra{
+        display: flex;
+        justify-content: left;
+        margin: 1.5rem auto 0 6.5rem;
+        width: 25%;
+        text-align: left;
+
+    }
+    
+    #cerrar-tarjeta{
+        right: 29.8rem;
+
+    }
+    
+    .detalle-caja{
+        display: grid;
+        margin: 0 0 0 -3.5rem;
+        row-gap: 0.5rem;
+    }
+
+    .tarj-producto-titulo{
+        font-size: 50%;
+        font-weight: 500;
+        text-transform: uppercase ;
+    }
+    
+    .shop{
+        margin-top: 1rem !important;
+    }
+    .tarj {
+        width: 100%;
+
+    }
+}

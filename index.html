@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <!--Navegador-->
+    <header>
+        <!--Nav-->
+        <div class="nav contenedor">
+            <!--logo-->
+            <a href="#" class="logo"  >Alura Geek</a>
+            <!--icono de shop-->
+            <i class="bx bx-shopping-bag" id="tarjeta-icono" data-quantity="0"></i>
+            <!--icono de sesion-->
+            <i class="bx bxl-sketch" id="sesion-icono" data-quantity="0" onclick=redireccion()></i>
+            <!--Tarjeta-->
+            <div class="tarjeta"> 
+                <h2 class="tarjeta-titulo">Tu carrito</h2>
+                <!--Contenido-->
+                <div class="tarjeta-contenido"></div>
+                <!--Total-->
+                <div class="Total">
+                    <div class="total-titulo">Total</div>
+                    <div class="total-precio">$0</div>
+                </div>
+                <!--Boton de compra-->
+                <button type="button" class="btn-compra">Paga ahora</button>
+                <!--Close Tarjeta-->
+                <i class='bx bx-x' id="cerrar-tarjeta"></i>
+            </div>
+        </div>
+    </header>
+    <!--Productos-->
+    <section>
+        <h2 class="titulo-seccion">Venta de Productos</h2>
+        <div class="contenedor compra" >
+        <!--contenido de venta-->
+            <div class="contenido-venta" data-lista>
+            <!--Caja1-->
+                
+            </div>
+        </div>
+     
+    </section>
+    <!--JS-->
+    <script src="Js/main.js" type="module"></script>
+    <script src="Js/redireccion.js"></script>
+    
+</body>
+
+</html>

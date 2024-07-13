@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos-form.css">
+    <link rel="stylesheet" href="../css/flexbox.css">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- encabezado -->
+    <header>
+
+        <nav class="encabezado">
+            <a href="../index.html" class="logo">Alura Geek</a>
+
+            <div class="cabecalho__icones">
+                <a href="./enviar-video.html" class="cabecalho__videos"></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <form class="container__formulario" data-formulario>
+            <h2 class="formulario__titulo">¡Agrega un Producto!</h3>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="imagen">Link de la imagen</label>
+                    <input name="imagen" class="campo__escrita" required
+                        placeholder="Por ejemplo: https://img.ltwebstatic.com/images3_pi/2022/10/24/1666581497a23666c2fdc63bb9a0e5b476df17c249_thumbnail_900x.webp" id='url' data-imagen/>
+                </div>
+
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Título del producto</label>
+                    <input name="titulo" class="campo__escrita" required placeholder="En este campo, pon el nombre del producto"
+                        id='titulo' data-titulo/>
+                </div>
+
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="Precio">Precio del Producto</label>
+                    <input name="precio" class="campo__escrita" required placeholder="Inserta un precio por ejemplo $XX.XX"
+                        id='imagem' data-precio/>
+                </div>
+
+                <input class="formulario__boton" type="submit" />
+        </form>
+
+    </main>
+    <script src="../Js/crearVIdeo.js" type="module"></script>
+</body>
+
+</html>

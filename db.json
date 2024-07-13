@@ -1,0 +1,76 @@
+{
+  "imagenes": [
+    {
+      "id": 1,
+      "titulo": "Camiseta casual de verano para hombre",
+      "precio": "$155.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/06/20/e2/1718851791dd6bd92785c3fa5d7726fdc4948e61d4_thumbnail_900x.webp"
+    },
+    {
+      "id": 2,
+      "titulo": "1 pieza Mochila de nylon impermeable para hombres, mochila grande",
+      "precio": "$476.00",
+      "imagen": "https://img.ltwebstatic.com/images3_spmp/2024/06/29/5f/1719596904f4c9e1be92a91d04c30b1a554f15bea3_thumbnail_900x.webp"
+    },
+    {
+      "id": 3,
+      "titulo": "Sudadera Verde",
+      "precio": "$174.22",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2022/10/24/1666581497a23666c2fdc63bb9a0e5b476df17c249_thumbnail_900x.webp"
+    },
+    {
+      "id": 4,
+      "titulo": "SCOOBY-DOO Camiseta de hombre retro marrón",
+      "precio": "$188.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/06/19/59/1718794343ee7bf4cb3121344c92cc55aa274aeeff_thumbnail_900x.webp"
+    },
+    {
+      "id": 5,
+      "titulo": "Camisa casual de verano para hombre con cuello",
+      "precio": "$152.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/04/18/36/1713431994c09d120732f86fcfdc9dd7d45d05df67_thumbnail_900x.webp"
+    },
+    {
+      "id": 6,
+      "titulo": "Manfinity Mode Camisa holgada de manga larga",
+      "precio": "$249.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/07/04/64/17200644934c4b372f781cf07808d3b5b9d3ebe0b2_thumbnail_900x.webp"
+    },
+    {
+      "id": 7,
+      "titulo": "Camiseta de aventura de verano para hombres de talla grande",
+      "precio": "$134.00",
+      "imagen": "https://img.ltwebstatic.com/images3_spmp/2024/06/05/42/17175952073c61e6768a4f81f983ccfb7e35d1da86_thumbnail_900x.webp"
+    },
+    {
+      "id": 3984,
+      "titulo": "Pants para caballero",
+      "precio": "$250.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/07/04/99/1720102722023fe03fb8f226d7dd0f084c7920e128_thumbnail_900x.webp"
+    },
+    {
+      "id": 89,
+      "titulo": "Manfinity Hypemode Pantalones de hombre",
+      "precio": "$246.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/07/01/c4/1719817857f3931cce3f03405086e2993d43dafcb9_thumbnail_900x.webp"
+    },
+    {
+      "id": "6849",
+      "titulo": "Manfinity Homme Camisa polo de manga corta ",
+      "precio": "202.00",
+      "imagen": "https://img.ltwebstatic.com/images3_pi/2024/07/01/7f/1719813412b31aa4b123261c22cf4db2b6e929fa42_thumbnail_900x.webp"
+    },
+    {
+      "id": "276",
+      "titulo": "PLAYERA INTENSAMENTE 2 EMOCION MIEDO",
+      "precio": "$299.00",
+      "imagen": "https://img.ltwebstatic.com/images3_spmp/2024/07/11/0f/1720645132f501d26a77d7bdee8f526f787f29e369_thumbnail_900x.webp"
+    },
+    {
+      "id": "f1d5",
+      "titulo": "Sudaderas Con Capucha Para Hombres",
+      "precio": "$129.00",
+      "imagen": "https://img.ltwebstatic.com/images3_spmp/2024/07/10/d7/1720592313831e9084f9111ffedbee25b88fb1ec55_thumbnail_900x.webp"
+    }
+  ]
+}
